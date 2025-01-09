@@ -1,0 +1,163 @@
+body{
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;
+}
+
+.mode {
+    font-family: Arial, sans-serif;
+    background-color: #020300;
+    margin: 0;
+    padding-left: 2.5%;
+    width: 95%;
+}
+
+/* .container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #14213d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+} */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1B1C1A;
+    border-bottom: 1px solid #14213d;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.icon-head{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:cursive;
+    width: 200px;
+}
+
+.icon-head i{
+    margin-left: 15px;
+    font-size: 30px;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1 {
+    margin-top: 10px;
+}
+
+#search-bar {
+    background-color: #0C0C06;
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #0C0C06;
+    border-radius: 20px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.chat-room {
+    color: white;
+    background-color: #1B1C1A;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    height: 400px;
+    width: 450px;
+}
+
+.msg{
+    height: 200px;
+}
+
+.btns{
+    display: flex;
+}
+
+.edit-btn{
+    padding: 0 5px;
+    margin: 0 .5rem;
+}
+
+.dlt-btn{
+    padding: 0 5px;
+    margin: 0 .5rem;
+}
+
+i{
+    color: white;
+}
+
+#msg{
+    color: white;
+}
+
+.chat-room h2 {
+    margin: 0 0 10px 0;
+    font-weight:800 ;
+}
+
+#create-room-btn {
+    display: block;
+    width: 100px;
+    height: fit-content;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#create-room-btn:hover {
+    background-color: whitesmoke;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    background-color: #1B1C1A;
+    border-top: 1px solid #14213d;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.unimp{
+    padding: 0;
+    height: 50px;
+}
+
+.card-home{
+    background-color: #1B1C1A;
+    width: 800px;
+    height: 200px ;
+    margin-top: 20px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    flex-wrap: wrap;
+}
